@@ -2,7 +2,7 @@
 
 Compliance specialist turned AI engineer — building evaluated, human-in-the-loop AI for financial crime compliance.
 
-4+ years at Wise, from customer support to due diligence to my current role as Enhanced Due Diligence Quality Specialist, working across AML, KYC, EDD, sanctions and fraud. At Wise I built a root cause analysis framework for AI conversation failures that cut investigation time by 35% and feeds the golden dataset used for model retraining.
+4+ years in AML, KYC, EDD, sanctions compliance and fraud investigation across fintech, crypto and telecoms — Wise (customer support → due diligence → Enhanced Due Diligence Quality Specialist), CoinMetro (AML compliance) and Bella Mobile (fraud consulting). At Wise I built a root cause analysis framework for AI conversation failures that cut investigation time by 35% and fed the golden dataset used for model retraining.
 
 CFCS certified (ACFCS) · CGSS in progress · Tallinn, Estonia · [LinkedIn](https://www.linkedin.com/in/victor-daniel-cfcs-453983191/)
 
