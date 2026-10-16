@@ -14,6 +14,8 @@ The through-line is evaluation: measuring what a system actually does, not what 
 
 #### Shipped projects
 
+Compliance Runtime — open-source runtime that sits between an AI agent and its tools. Rule-based policies allow, deny or escalate every tool call before it executes, with no LLM in the decision path; high-stakes actions wait for human approval; every decision lands in a SHA-256 hash chain with Ed25519 signatures, exportable as a PDF dossier mapped to EU AI Act Article 12. 46 security controls, 17 evaluation metrics with bootstrap CIs, 369 tests, $0 runtime.
+
 **[Compliance Monitoring Agent](https://github.com/Vickkywhyte/compliance-monitoring-agent)** — autonomous EU regulatory change monitor (sanctions lists, EUR-Lex, EBA). The agent proposes; a human always decides. 39 security controls, 20 evaluation metrics across six pipeline stages, 211 tests, $0 runtime with a local Ollama fallback.
 
 **[Document Intelligence Platform](https://github.com/Vickkywhyte/doc-intelligence-platform)** — RAG with first-class evaluation. 3 chunkers × 2 embedders on a 75-question golden set, 15 of them deliberately unanswerable. Best config 0.933 answer accuracy; lowest hallucination rate 3.1%; full matrix for $0.46. 378 tests.
