@@ -4,7 +4,7 @@ Compliance specialist turned AI engineer — building evaluated, human-in-the-lo
 
 4 years in financial crime compliance at Wise, moving from customer support through verification and due diligence to Enhanced Due Diligence Quality Specialist. I have reviewed more than 10,000 consumer and business profiles across EDD, AML, sanctions and fraud controls. At Wise I built a root cause analysis framework for AI conversation failures that cut investigation time by 35% and fed the golden dataset used for model retraining.
 
-I also founded [Karagateway OÜ](https://www.karagateway.com), a Europe–Africa trade facilitation company with partnerships in Kenya, Nigeria and Tanzania. I built its platform and its AI features, including a market-entry assessment and a chatbot with written guardrails.
+I am also a partner at [Karagateway OÜ](https://www.karagateway.com), a Europe–Africa trade facilitation company with partnerships in Kenya, Nigeria and Tanzania, where I built the platform and its AI features, including a market-entry assessment and a chatbot with written guardrails.
 
 CFCS certified (ACFCS) · CGSS in progress · Tallinn, Estonia · [LinkedIn](https://www.linkedin.com/in/victor-daniel-cfcs-453983191/)
 
