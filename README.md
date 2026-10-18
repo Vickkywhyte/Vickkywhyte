@@ -2,7 +2,7 @@
 
 Compliance specialist turned AI engineer — building evaluated, human-in-the-loop AI for financial crime compliance.
 
-4+ years in AML, KYC, EDD, sanctions compliance and fraud investigation across fintech, crypto and telecoms — Wise (customer support → due diligence → Enhanced Due Diligence Quality Specialist), CoinMetro (AML compliance) and Bella Mobile (fraud consulting). At Wise I built a root cause analysis framework for AI conversation failures that cut investigation time by 35% and fed the golden dataset used for model retraining.
+4 years in financial crime compliance at Wise, moving from customer support through verification and due diligence to Enhanced Due Diligence Quality Specialist. I have reviewed more than 10,000 consumer and business profiles across EDD, AML, sanctions and fraud controls. At Wise I built a root cause analysis framework for AI conversation failures that cut investigation time by 35% and fed the golden dataset used for model retraining.
 
 CFCS certified (ACFCS) · CGSS in progress · Tallinn, Estonia · [LinkedIn](https://www.linkedin.com/in/victor-daniel-cfcs-453983191/)
 
@@ -14,7 +14,7 @@ The through-line is evaluation: measuring what a system actually does, not what 
 
 #### Shipped projects
 
-Compliance Runtime — open-source runtime that sits between an AI agent and its tools. Rule-based policies allow, deny or escalate every tool call before it executes, with no LLM in the decision path; high-stakes actions wait for human approval; every decision lands in a SHA-256 hash chain with Ed25519 signatures, exportable as a PDF dossier mapped to EU AI Act Article 12. 46 security controls, 17 evaluation metrics with bootstrap CIs, 369 tests, $0 runtime.
+**[Compliance Runtime](https://github.com/Vickkywhyte/compliance-runtime)** — open-source runtime that sits between an AI agent and its tools. Rule-based policies allow, deny or escalate every tool call before it executes, with no LLM in the decision path; high-stakes actions wait for human approval; every decision lands in a SHA-256 hash chain with Ed25519 signatures, exportable as a PDF dossier mapped to EU AI Act Article 12. 46 security controls, 17 evaluation metrics with bootstrap CIs, 369 tests, $0 runtime.
 
 **[Compliance Monitoring Agent](https://github.com/Vickkywhyte/compliance-monitoring-agent)** — autonomous EU regulatory change monitor (sanctions lists, EUR-Lex, EBA). The agent proposes; a human always decides. 39 security controls, 20 evaluation metrics across six pipeline stages, 211 tests, $0 runtime with a local Ollama fallback.
 
@@ -22,10 +22,8 @@ Compliance Runtime — open-source runtime that sits between an AI agent and its
 
 **[Multi-Model Router](https://github.com/Vickkywhyte/Multi-Model-Router)** — cost-aware LLM gateway that classifies prompt complexity and routes each request to the cheapest capable Gemini tier, logging cost, latency and human quality feedback per request.
 
-**[Agentic RAG Assistant](https://github.com/Vickkywhyte/agentic_rag_project)** — multi-hop reasoning with autonomous planning and a search / calculate / verify tool loop, returning execution traces and source verification.
+Earlier builds, kept private: an agentic RAG assistant with planning and verification loops, a sanctions research assistant, and a multi-model analyst council with anonymised peer review.
 
-**[Sanctions CGSS RAG](https://github.com/Vickkywhyte/sanctions-cgss-rag)** — ACAMS CGSS exam prep across OFAC, UN and EU frameworks, with retrieval surfaced next to every answer.
+#### How I build
 
-**[Competitive Intelligence Council](https://wise-competitive-intelligence.vercel.app)** (live demo) — four analysts on four different LLMs, anonymised peer review, and an executive synthesis that separates agreement from uncertainty.
-
-Open source; the flagship repos are MIT licensed and documented in depth.
+I write the specs, threat models and evaluation designs with Claude as a drafting partner, then use Claude Code to implement them phase by phase. Each flagship README has a "How this was built" section, and the design documents live in the repo next to the code. The flagship repos are MIT licensed.
